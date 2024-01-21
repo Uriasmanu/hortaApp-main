@@ -54,7 +54,7 @@ export function Projetos({ navigation }: ProjetosProps) {
 
       <View style={styles.card}>
         <Image source={require('../../assets/Imagens/doacao.png')} style={styles.imagem} />
-        <Text style={styles.tituloCard}>{TextosInicio.tituloCard}</Text>
+        <Text style={styles.tituloCard}>{TextosInicio.tituloCard4}</Text>
         <TouchableOpacity style={styles.botao}>
           <Text style={styles.textoBotoa}>{TextosInicio.saibaMais}</Text>
         </TouchableOpacity>
@@ -62,7 +62,7 @@ export function Projetos({ navigation }: ProjetosProps) {
 
       <View style={styles.card}>
         <Image source={require('../../assets/Imagens/padaria.png')} style={styles.imagem} />
-        <Text style={styles.tituloCard}>{TextosInicio.tituloCard2}</Text>
+        <Text style={styles.tituloCard}>{TextosInicio.tituloCard5}</Text>
         <TouchableOpacity style={styles.botao}>
           <Text style={styles.textoBotoa}>{TextosInicio.saibaMais}</Text>
         </TouchableOpacity>
@@ -70,7 +70,7 @@ export function Projetos({ navigation }: ProjetosProps) {
 
       <View style={styles.card}>
         <Image source={require('../../assets/Imagens/verdura.png')} style={styles.imagem} />
-        <Text style={styles.tituloCard}>{TextosInicio.tituloCard3}</Text>
+        <Text style={styles.tituloCard}>{TextosInicio.tituloCard6}</Text>
         <TouchableOpacity style={styles.botao}>
           <Text style={styles.textoBotoa}>{TextosInicio.saibaMais}</Text>
         </TouchableOpacity>
