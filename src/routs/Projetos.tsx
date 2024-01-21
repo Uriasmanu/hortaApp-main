@@ -61,7 +61,7 @@ export function Projetos({ navigation }: ProjetosProps) {
       </View>
 
       <View style={styles.card}>
-        <Image source={require('../../assets/Imagens/padaria.png')} style={styles.imagem} />
+        <Image source={require('../../assets/Imagens/Padaria/padaria.png')} style={styles.imagem} />
         <Text style={styles.tituloCard}>{TextosInicio.tituloCard5}</Text>
         <TouchableOpacity style={styles.botao}>
           <Text style={styles.textoBotoa}>{TextosInicio.saibaMais}</Text>

@@ -58,7 +58,7 @@ const Stack = createStackNavigator();
 function GaleriasStack() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Galerias" component={Galerias} />
+      <Stack.Screen name=" " component={Galerias} />
       <Stack.Screen name="Horta Medicinal" component={Medicinal} /> 
       <Stack.Screen name="Projeto Sopão" component={Sopao} /> 
       <Stack.Screen name="Padaria Comunitaria" component={Padaria} /> 
