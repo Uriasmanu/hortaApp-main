@@ -3,6 +3,11 @@ import { View, Text, StyleSheet } from 'react-native';
 import { TextosInicio } from '../mocks/textos';
 
 const Padaria: React.FC = () => {
+
+  const imagens = [
+    require('')
+  ]
+
   return (
     <View style={styles.container}>
       <Text style={styles.titulo}>{TextosInicio.tituloCard5}</Text>
