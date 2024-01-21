@@ -6,7 +6,6 @@ import { Login } from './Login';
 import { SobreNos } from './SobreNos';
 import { Localizacao } from './Localizacao';
 import { Agenda } from './Agenda';
-import Galerias from '../componentes/galeria';
 import GaleriasStack from '../componentes/galeria';
 
 const Drawer = createDrawerNavigator();
@@ -20,21 +19,22 @@ export default function Routers() {
           backgroundColor: "#3C533C",
         },
         headerTintColor: '#fff',
-        headerTitle: ' ', // Espaço em branco para simular a ausência de texto
+        headerTitle: ' ', 
+        
         headerRight: () => (
           <Image
-            source={require('../../assets/topo.png')}
-            style={{ width: 80, height: 80, marginHorizontal: 10 }}
+            source={require('../../assets/logos.png')}
+            style={{ width: 100, height: 100, marginHorizontal: 1, marginTop:10 }}
           />
         ),
       }}
     >
+      <Drawer.Screen name="Login" component={Login} />
       <Drawer.Screen name="Home" component={HomeScreen} />
       <Drawer.Screen name="Agenda" component={Agenda} />
       <Drawer.Screen name="Galerias" component={GaleriasStack} />
       <Drawer.Screen name="Sobre Nós" component={SobreNos} />
       <Drawer.Screen name="Localização" component={Localizacao} />
-      <Drawer.Screen name="Login" component={Login} />
     </Drawer.Navigator>
   );
 }
