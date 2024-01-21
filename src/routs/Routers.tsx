@@ -7,6 +7,7 @@ import { SobreNos } from './SobreNos';
 import { Localizacao } from './Localizacao';
 import { Agenda } from './Agenda';
 import Galerias from '../componentes/galeria';
+import GaleriasStack from '../componentes/galeria';
 
 const Drawer = createDrawerNavigator();
 
@@ -30,7 +31,7 @@ export default function Routers() {
     >
       <Drawer.Screen name="Home" component={HomeScreen} />
       <Drawer.Screen name="Agenda" component={Agenda} />
-      <Drawer.Screen name="Galerias" component={Galerias} />
+      <Drawer.Screen name="Galerias" component={GaleriasStack} />
       <Drawer.Screen name="Sobre Nós" component={SobreNos} />
       <Drawer.Screen name="Localização" component={Localizacao} />
       <Drawer.Screen name="Login" component={Login} />
