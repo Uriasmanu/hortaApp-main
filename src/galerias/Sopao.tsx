@@ -6,7 +6,8 @@ const Sopao: React.FC = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.titulo}>{TextosInicio.tituloCard2}</Text>
-      {/* Adicione o conteúdo do componente aqui */}
+
+      <Text style={styles.descricaoProjeto}>Num canto remoto do universo, onde as estrelas dançam em harmonia, uma pequena nave espacial navegava pelo cosmos, explorando os segredos do espaço infinito. A tripulação, composta por seres de diferentes galáxias, compartilhava histórias fascinantes sobre os mundos que haviam descoberto.</Text>
     </View>
   );
 };
@@ -24,7 +25,10 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     textAlign: "center",
   },
-  // Adicione outros estilos conforme necessário
+  descricaoProjeto:{
+    color: "#3C533C",
+    fontSize: 19
+  },
 });
 
 export default Sopao;
