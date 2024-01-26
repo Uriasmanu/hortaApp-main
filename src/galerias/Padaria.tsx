@@ -1,7 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image, FlatList } from 'react-native';
+import { ScrollView, Text, StyleSheet, Image, FlatList } from 'react-native';
 import { TextosInicio } from '../mocks/textos';
-import { ScrollView } from 'react-native-gesture-handler';
 
 const Padaria: React.FC = () => {
   const imagens = [
